@@ -1,0 +1,25 @@
+/*  atributo */
+[href]{
+    background-color: mediumorchid;
+}
+
+/*  atributo - valor */
+[href="https:www.google.com"]{
+    background-color: orangered;
+}
+
+/* saber si el atributo cuenta con ese valor */
+/* al principio */
+[href^="color"]{
+    background-color: red;
+}
+
+/*  valor que coincida independeintemente de donde este */
+[href*="color"]{
+    background-color: green;
+}
+
+/* Seleccionar el valor si termina por esa palabra */
+[href$="blue"]{
+    background-color: steelblue;
+}

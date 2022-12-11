@@ -1,0 +1,19 @@
+
+/* SELETOR DE TIPO UNIVERSAL */
+/*
+   SELECCIONA TODOS LOS ELEMENTOS
+*/
+*{
+    background-color: lightcoral;
+}
+
+/*
+   SELECTOR ETIQUETA
+*/
+h1{
+    background-color: lightcyan;
+}
+
+p{
+    background-color: lightgreen;
+}

@@ -1,0 +1,15 @@
+/* SELECTOR POR ID */
+/* NUNCA DAR ESTILO CON ESTE SELECTOR */
+#title{
+    background-color: lightgreen;
+}
+
+/* SELECTOR POR CLASES */
+/* MÁS RECOMENDABLE */
+.title{
+    background-color: lightsalmon;
+}
+
+.text{
+    background-color: lightgreen;
+}
