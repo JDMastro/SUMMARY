@@ -1,0 +1,8 @@
+/*
+   CON ESTE SELECTOR SE LE VA A DAR ESTILOS A LOS ELEMTENTOS
+   HIJOS DIRECTOS
+*/
+
+.container > p{
+  background-color: tomato;
+}
