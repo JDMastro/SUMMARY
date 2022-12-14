@@ -1,0 +1,30 @@
+/* Selector Specificity: (1, 1, 1) */
+/*  Esta regla cuenta con mayor especifidad por ende es la que
+    se le aplicará al h1 */
+h1.title#title {
+    background-color: tomato;
+}
+/* Selector Specificity: (0, 0, 1) */
+h1 {
+    background-color: red;
+}
+/*  Selector Specificity: (0, 1, 0) */
+.title {
+    background-color: blue;
+}
+/* Selector Specificity: (1, 0, 0) */
+#title {
+    background-color: green;
+}
+/*  Selector Specificity: (0, 1, 1) */
+h1.title {
+    background-color: yellow
+}
+/* Selector Specificity: (1, 0, 1) */
+h1#title {
+    background-color: teal;
+}
+/* No recomendable */
+h1.title{
+    background-color: red !important;
+}
