@@ -1,0 +1,26 @@
+/* El <span></span> esta heredando las propiedades del h1 */
+.title {
+    /* PARA DARLE COLOR A LAS LEETRAS (FONTS) Y SE HEREDAN  */
+    color: cyan;
+    /* PARA DARLE TAMAÑO A LAS LEETRAS (FONTS) Y SE HEREDAN  */
+    font-size: 10px;
+}
+/*
+No todas las etiquetas toman la herencia de otro ej
+la etiqueta a no esta tomando la herencia de la etiqueta que tiene como
+clase text
+*/
+.text { color: red; }
+/* Con inherit forzamos a que la etiqueta <a></a> tome la herencia de la etiqueta <p></p> */
+.link { color: inherit; }
+
+.list {
+    color: indianred;
+}
+
+/* con Initial evitamos que tome el color por herencia, que viene de la clase list, 
+tomando su estilos por defecto
+*/
+.list-item-extra {
+    color: initial;
+}
