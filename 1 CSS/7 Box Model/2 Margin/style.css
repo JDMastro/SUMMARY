@@ -1,0 +1,25 @@
+body{
+    background-color: #333;
+    color: #fff;
+}
+
+/*
+  Solo a los elementos de bloque se les puede dar medida
+*/
+.block{
+    background-color: purple;
+    /* Medida a lo largo */
+    width: 200px;
+    /* Medida a lo alto */
+    height: 300px;
+}
+
+/*
+ Los elementos inline no tienen medidas
+*/
+.inline{
+    background-color: lightcoral;
+    color: inherit;
+    width: 200px;
+    height: 300px;
+}
