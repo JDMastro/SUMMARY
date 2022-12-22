@@ -12,10 +12,17 @@ body{
     width: 200px;
     /* Medida a lo alto */
     height: 300px;
+    /*margin: 100px;*/
+    /* Con esto le decimos al navegador que lo calcule y lo que hace es pegar toda la caja hacia
+    la izquierda, y asi con todos margin- top/right/bottom : auto 
+    y para que esto funcione deber tener un width declarado
+    */
+    margin-left: auto;
 }
 
 /*
- Los elementos inline no tienen medidas
+ Los elementos inline solo tienen margenes horizontales
+ de izquierda a derecha o de derecha a izquierda
 */
 .inline{
     background-color: lightcoral;
