@@ -1,0 +1,33 @@
+* { box-sizing: border-box; }
+body { margin: 0; background-color: #333; }
+.box {
+  text-align: center;
+  /* Dandole medidas */
+  width: 100px;
+  height: 100px;
+}
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: lightskyblue;
+  position: absolute;
+  margin-left: 100px;
+}
+.box-1 {
+  background-color: lightcoral;
+  /*Quitamos el espacio reservado que tenia*/
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.box-2 {
+  background-color: lightgreen;
+  /*
+  Si no se le dá un with y un height la caja perdera sus medidas
+  */
+  position: absolute;
+  /* La caja se va a mover con respecto al padre, en este caso el elemento
+      padre es el body */
+  right: 0;
+  bottom: 0;
+}
