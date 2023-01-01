@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+article {
+  outline: 3px solid red;
+}
+
+.article-title {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  margin: 0;
+}
+
+.header {
+  color: orangered;
+  padding: 25px 0;
+  text-align: center;
+  background-color: lightskyblue;
+  position: sticky;
+  /*
+  Cuando el header este a 0 pixel del top, el position
+  se comportará como si fuera fixed
+  */
+  top: 0;
+}
