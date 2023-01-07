@@ -29,6 +29,7 @@ body {
   background-color: lightgreen;
   position: relative;
   top: 50px;
+  /* El número mayor es el que prevaluce */
   z-index: 1;
 }
 
