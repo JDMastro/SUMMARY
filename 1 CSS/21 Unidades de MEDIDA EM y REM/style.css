@@ -1,0 +1,21 @@
+body{
+    background-color: #333;
+    color: lightcoral;
+}
+/*
+para tamaño de fuente siempre usar rem
+*/
+.title{
+    font-size: 4rem;
+}
+
+/*
+Si la medida tiene que crecer proporcional al texto siempre usar em
+*/
+.link{
+    background-color: lightcoral;
+    color: #333;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    font-size: 2rem;
+}
