@@ -1,0 +1,20 @@
+/*
+El auto se usa caundo usamos margenes en el elemteo
+*/
+
+body{
+    background-color: #333;
+    color: lightcoral;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.box-children{
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+}
