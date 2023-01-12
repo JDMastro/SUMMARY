@@ -1,0 +1,53 @@
+.contenedor {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.contenedor__columna-izquierda {
+    width: 700px;
+    float: left;
+    background: greenyellow;
+}
+
+.contenedor__columna-derecha {
+    width: 250px;
+    float: left;
+    background: coral;
+}
+
+/*
+Los estilos se aplicaran cuando el ancho de la pantalla
+sea de 959px
+*/
+
+@media screen and (max-width: 959px) {
+    .contenedor {
+        width: 100%;
+    }
+
+    .contenedor__columna-izquierda {
+        width: 70%;
+    }
+
+    .contenedor__columna-derecha {
+        width: 30%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+/*
+Los estilos se aplicaran cuando el ancho de la pantalla
+sea de 740px
+*/
+@media screen and (max-width: 740px) {
+    .contenedor__columna-izquierda {
+        width: 100%;
+    }
+
+    .contenedor__columna-derecha {
+        width: 100%;
+    }
+}
