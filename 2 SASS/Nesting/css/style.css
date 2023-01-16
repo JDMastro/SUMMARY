@@ -1,0 +1,31 @@
+/* SELECCTORES DE descendientes */
+/*  
+Se esta tomando el 
+elemento con la clase hero 
+*/
+.nav {
+  background-color: steelblue;
+  /* & hace refrencia al padre es como decir que & == .nav */
+  /* Esto se traduce a .nav__container */
+}
+.nav__container {
+  width: 90%;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav__item {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  /* modificador en bemm */
+}
+.nav__item--active {
+  text-decoration: underline;
+}
+
+/* Llamar los partials*/
+
+/*# sourceMappingURL=style.css.map */

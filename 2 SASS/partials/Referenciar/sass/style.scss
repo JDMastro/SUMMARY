@@ -1,0 +1,9 @@
+/* Llamar los partials*/
+@use 'navbar';
+
+/* DECLARAR VARIABLES */
+$color: crimson;
+
+h2{
+    color: $color;
+}
