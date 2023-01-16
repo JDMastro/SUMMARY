@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #72115f;
+    padding: 50px;
+    margin: 0;
+    color: white;
+}
+
+.container{
+    border: solid ipx rgb(53, 87, 129);
+    padding: 5px;
+    background-color: rgb(255, 126, 188);
+    border-radius: 5px;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    align-items: start;
+}
+
+.item{
+    box-sizing: border-box;
+    border: solid 3px rgb(117, 19, 255);
+    background-color: aqua;
+    color: black;
+    border-radius: 3px;
+}
