@@ -1,0 +1,44 @@
+$bgcolor : 'background-color';
+$primary: crimson;
+
+:root{
+    --primary : #{$primary};
+}
+/* SELECCTORES DE descendientes */
+/*  
+Se esta tomando el 
+elemento con la clase hero 
+*/
+.nav{
+    #{$bgcolor} : steelblue;
+
+    /* & hace refrencia al padre es como decir que & == .nav */
+    /* Esto se traduce a .nav__container */
+    &__container{
+        width: 90%;
+        margin: 0 auto;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1em;
+    }
+    &__item{
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        /* modificador en bemm */
+        &--active{
+            text-decoration: underline;
+        }
+        /* Estamos accediento al hover de la clase nav__item */
+        &:hover{
+            color: #000;
+        }
+    }
+    @media (min-width:764px) {
+        &__container{
+            justify-content: flex-end;
+        }
+    }
+}
